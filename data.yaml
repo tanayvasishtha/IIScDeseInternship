@@ -1,0 +1,13 @@
+train: C:\Users\KIIT\Desktop\License Plate Recognition.v4-resized640_aug3x-accurate.yolov8\train 
+val: C:\Users\KIIT\Desktop\License Plate Recognition.v4-resized640_aug3x-accurate.yolov8\valid
+test: C:\Users\KIIT\Desktop\License Plate Recognition.v4-resized640_aug3x-accurate.yolov8\test
+
+nc: 1
+names: ['License_Plate']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: license-plate-recognition-rxg4e
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4
